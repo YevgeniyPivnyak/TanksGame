@@ -12,4 +12,9 @@ public class T34 extends AbstractTank {
         tankColor = new Color(250, 0, 0);
         towerColor = new Color(0, 255, 0);
     }
+
+    @Override
+    public void draw(Graphics g) {
+
+    }
 }

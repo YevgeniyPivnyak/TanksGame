@@ -12,4 +12,9 @@ public class BT7 extends AbstractTank {
         tankColor = new Color(255, 0, 255);
         towerColor = new Color(255, 0, 0);
     }
+
+    @Override
+    public void draw(Graphics g) {
+
+    }
 }

@@ -1,5 +1,6 @@
+import java.awt.*;
 
-public class Bullet {
+public class Bullet implements Drowable, Destroyable {
     private int speed = 5;
     private int x;
     private int y;
@@ -44,6 +45,11 @@ public class Bullet {
     public void updateY(int y) {
 
         this.y += y;
+    }
+
+    @Override
+    public void draw(Graphics g) {
+
     }
 }
 

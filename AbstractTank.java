@@ -1,6 +1,6 @@
 import java.awt.*;
 
-public abstract class AbstractTank {
+public abstract class AbstractTank implements Drowable, Destroyable {
 
     protected int speed;
     protected int x;
