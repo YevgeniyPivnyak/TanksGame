@@ -52,7 +52,7 @@ public class BattleField {
     public String getAgressorLocation(){
         int locationX = 0;
         Random r = new Random();
-        int index = r.nextInt(3);
+        int index = r.nextInt(2);
 
         if (index == 0) {
             locationX = 64;

@@ -12,6 +12,10 @@ public abstract class AbstractTank {
     private ActionField actionField;
     private BattleField battleField;
 
+    public AbstractTank(ActionField af, BattleField bf) {
+        this(af, bf, 64, 64, Direction.RIGHT);
+    }
+
     public AbstractTank(ActionField actionField, BattleField battleField, int x, int y, Direction direction) {
         this.actionField = actionField;
         this.battleField = battleField;
