@@ -3,7 +3,7 @@ import java.awt.*;
 public class T34 extends AbstractTank {
 
     public T34(ActionField af, BattleField bf) {
-        this(af, bf, 64, 512, Direction.UP);
+        this(af, bf, 64, 512, Direction.LEFT);
     }
 
     public T34(ActionField actionField, BattleField battleField, int x, int y, Direction direction) {
