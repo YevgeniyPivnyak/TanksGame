@@ -1,3 +1,10 @@
+package AllTanks;
+
+import Interfaces.Destroyable;
+import Interfaces.Drowable;
+import Tanks.*;
+
+
 import java.awt.*;
 
 public abstract class AbstractTank implements Drowable, Destroyable {

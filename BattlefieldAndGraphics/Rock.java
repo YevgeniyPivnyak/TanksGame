@@ -1,3 +1,8 @@
+package BattlefieldAndGraphics;
+
+import Interfaces.Destroyable;
+import Interfaces.Drowable;
+
 import java.awt.*;
 
 public class Rock implements Drowable, Destroyable {
@@ -9,6 +14,6 @@ public class Rock implements Drowable, Destroyable {
 
     @Override
     public void destroy() {
-        
+
     }
 }

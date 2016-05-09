@@ -1,3 +1,6 @@
+import Interfaces.Destroyable;
+import Interfaces.Drowable;
+
 import java.awt.*;
 
 public class Bullet implements Drowable, Destroyable {

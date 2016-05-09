@@ -1,3 +1,7 @@
+package BattlefieldAndGraphics;
+
+import Interfaces.Drowable;
+
 import java.awt.*;
 
 public class Water implements Drowable {

@@ -1,5 +1,11 @@
+import BattlefieldAndGraphics.BattleField;
+import AllTanks.AbstractTank;
+import AllTanks.BT7;
+import AllTanks.T34;
+
 import javax.swing.*;
 import java.awt.*;
+
 
 public class ActionField extends JPanel {
 

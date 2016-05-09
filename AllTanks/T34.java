@@ -1,3 +1,5 @@
+package AllTanks;
+
 import java.awt.*;
 
 public class T34 extends AbstractTank {
