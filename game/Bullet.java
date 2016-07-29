@@ -1,3 +1,4 @@
+package game;
 
 public class Bullet {
     private int speed = 5;

@@ -1,3 +1,5 @@
+package game;
+
 import java.awt.*;
 
 public class BT7 extends AbstractTank {
