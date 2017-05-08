@@ -20,6 +20,8 @@ public class ActionField extends JPanel {
 
     void runTheGame() throws Exception {
 
+           //need Defender algorithm
+
         defender.turn(Direction.UP);
         defender.fire();
         defender.fire();
